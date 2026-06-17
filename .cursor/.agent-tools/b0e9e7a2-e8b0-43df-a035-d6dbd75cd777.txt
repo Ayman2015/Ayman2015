@@ -1,0 +1,302 @@
+  Determining projects to restore...
+  Writing /tmp/tmp0aGUQN.tmp
+info : X.509 certificate chain validation will use the fallback certificate bundle at '/workspace/.dotnet/sdk/8.0.415/trustedroots/codesignctl.pem'.
+info : X.509 certificate chain validation will use the fallback certificate bundle at '/workspace/.dotnet/sdk/8.0.415/trustedroots/timestampctl.pem'.
+info : Adding PackageReference for package 'Microsoft.EntityFrameworkCore.Sqlite' into project '/workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj'.
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/index.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/index.json 446ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/page/0.0.1-alpha/3.1.2.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/page/0.0.1-alpha/3.1.2.json 89ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/page/3.1.3/6.0.0-preview.6.21352.1.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/page/3.1.3/6.0.0-preview.6.21352.1.json 70ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/page/6.0.0-preview.7.21378.4/7.0.17.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/page/6.0.0-preview.7.21378.4/7.0.17.json 70ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/page/7.0.18/10.0.0-rc.2.25502.107.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlite/page/7.0.18/10.0.0-rc.2.25502.107.json 68ms
+info : Restoring packages for /workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj...
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlite/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlite/index.json 197ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlite/9.0.10/microsoft.entityframeworkcore.sqlite.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlite/9.0.10/microsoft.entityframeworkcore.sqlite.9.0.10.nupkg 26ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlite.core/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.text.json/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlite.core/index.json 66ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlite.core/9.0.10/microsoft.entityframeworkcore.sqlite.core.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/index.json 117ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/9.0.10/microsoft.extensions.caching.memory.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlite.core/9.0.10/microsoft.entityframeworkcore.sqlite.core.9.0.10.nupkg 62ms
+info :   OK https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/index.json 134ms
+info :   GET https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/9.0.10/microsoft.extensions.caching.memory.9.0.10.nupkg 24ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.text.json/index.json 148ms
+info :   OK https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/index.json 148ms
+info :   GET https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/index.json 154ms
+info :   OK https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg 18ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.text.json/9.0.10/system.text.json.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/index.json 160ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/9.0.10/microsoft.extensions.logging.9.0.10.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/9.0.10/microsoft.extensions.dependencymodel.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/index.json 165ms
+info :   OK https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg 23ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.text.json/9.0.10/system.text.json.9.0.10.nupkg 19ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/9.0.10/microsoft.extensions.configuration.abstractions.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/9.0.10/microsoft.extensions.logging.9.0.10.nupkg 20ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/9.0.10/microsoft.extensions.dependencymodel.9.0.10.nupkg 23ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/9.0.10/microsoft.extensions.configuration.abstractions.9.0.10.nupkg 24ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/index.json 72ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/9.0.10/microsoft.data.sqlite.core.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/index.json 84ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/9.0.10/microsoft.entityframeworkcore.relational.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/9.0.10/microsoft.data.sqlite.core.9.0.10.nupkg 25ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/9.0.10/microsoft.entityframeworkcore.relational.9.0.10.nupkg 15ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/index.json 248ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/9.0.10/microsoft.entityframeworkcore.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/9.0.10/microsoft.entityframeworkcore.9.0.10.nupkg 19ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/index.json 68ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/index.json 69ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/9.0.10/microsoft.entityframeworkcore.abstractions.9.0.10.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/9.0.10/microsoft.entityframeworkcore.analyzers.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/9.0.10/microsoft.entityframeworkcore.analyzers.9.0.10.nupkg 15ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/9.0.10/microsoft.entityframeworkcore.abstractions.9.0.10.nupkg 19ms
+info :   GET https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/index.json 67ms
+info :   OK https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/index.json 71ms
+info :   GET https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg 16ms
+info :   OK https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg 32ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/index.json 72ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/index.json 74ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/index.json 67ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/9.0.10/microsoft.extensions.options.9.0.10.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/9.0.10/microsoft.extensions.primitives.9.0.10.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/9.0.10/microsoft.extensions.caching.abstractions.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/index.json 83ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/9.0.10/microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/9.0.10/microsoft.extensions.caching.abstractions.9.0.10.nupkg 19ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/9.0.10/microsoft.extensions.options.9.0.10.nupkg 21ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/9.0.10/microsoft.extensions.primitives.9.0.10.nupkg 21ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/9.0.10/microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg 22ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/index.json 281ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/9.0.10/microsoft.extensions.logging.abstractions.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/9.0.10/microsoft.extensions.logging.abstractions.9.0.10.nupkg 17ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/index.json 65ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/9.0.10/system.diagnostics.diagnosticsource.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/9.0.10/system.diagnostics.diagnosticsource.9.0.10.nupkg 17ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.text.encodings.web/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.text.encodings.web/index.json 100ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg 20ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/index.json 72ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/9.0.10/microsoft.extensions.dependencyinjection.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/9.0.10/microsoft.extensions.dependencyinjection.9.0.10.nupkg 15ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.memory/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.memory/index.json 71ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.memory/4.5.3/system.memory.4.5.3.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.memory/4.5.3/system.memory.4.5.3.nupkg 249ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.io.pipelines/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.io.pipelines/index.json 64ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.io.pipelines/9.0.10/system.io.pipelines.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.io.pipelines/9.0.10/system.io.pipelines.9.0.10.nupkg 18ms
+info : Installed Microsoft.Extensions.Primitives 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.primitives/9.0.10 with content hash 3pl8D1O5ZwMpDkZAT2uXrhQ6NipkwEgDLMFuURiHTf72TvkoMP61QYH3Vk1yrzVHnHBdNZk3cQACz8Zc7YGNhQ==.
+info : Installed System.IO.Pipelines 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.io.pipelines/9.0.10 with content hash lwI0mhHcCxMtNSxB5ate9Gc9petWovRBUprtjz2yiIDDZPGBIaUiqNzQHJzjPuzTnvNbEMilpAXjDguKsU/2Fg==.
+info : Installed Microsoft.Data.Sqlite.Core 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.data.sqlite.core/9.0.10 with content hash tWbN2uzG4uBxxMjcHA3Oa9ecAYjyRTfDwRbgQ7ueyx7eEgyYbBiKADY2rllF8wO3dHUvN+/8fgylwSGMfiCtVg==.
+info : Installed Microsoft.EntityFrameworkCore.Analyzers 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.10 with content hash mXNl0Gg3l3zGrClLCHepB+b7rYVuFfB9qQJwya0dUSHFuR1T0jMD8KxuNVyhQSfoWIepanhzjcG8TUNGXOcU0Q==.
+info : Installed Microsoft.Extensions.Logging.Abstractions 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.10 with content hash MFUPv/nN1rAQ19w43smm6bbf0JDYN/1HEPHoiMYY50pvDMFpglzWAuoTavByDmZq7UuhjaxwrET3joU69ZHoHQ==.
+info : Installed SQLitePCLRaw.provider.e_sqlite3 2.1.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.10 with content hash uZVTi02C1SxqzgT0HqTWatIbWGb40iIkfc3FpFCpE/r7g6K0PqzDUeefL6P6HPhDtc6BacN3yQysfzP7ks+wSQ==.
+info : Installed Microsoft.EntityFrameworkCore 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.entityframeworkcore/9.0.10 with content hash WjjxVyOTVs85V7SUe+lZjtGOEeVzF4RO8amrqL4adgbyThNq7vGCFzPw8buZj44gHeQYD5V/uZ/6XuqG9Jq+kA==.
+info : Installed System.Text.Encodings.Web 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.text.encodings.web/9.0.10 with content hash znmiJFUa0GGwq7t6ShUKBDRlPsNJaudNFI7rVeyGnRBhiRMegBvu2GRcadThP/QX/a5UpGgZbe6tolDooobj/Q==.
+info : Installed Microsoft.Extensions.Options 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.options/9.0.10 with content hash zMNABt8eBv0B0XrWjFy9nZNgddavaOeq3ZdaD5IlHhRH65MrU7HM+Hd8GjWE3e2VDGFPZFfSAc6XVXC17f9fOA==.
+info : Installed Microsoft.Extensions.Caching.Abstractions 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.10 with content hash cL6iTxgJ4u5zP3eFOdBiDAtmE/B2WKTRhyJfEne7n6qvHpsMwwIDxljs210mWSO1ucBy7lR1Lo7/7kjeZeLcqQ==.
+info : Installed Microsoft.EntityFrameworkCore.Abstractions 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.10 with content hash I3TWAs5Lbzmzu8S0T6qXhzBiO3CznYLrfE59W0npkqNHfWGH8CgA66LrHMWxWOXVTD4145QwYqiWNCdLwpJ1Ew==.
+info : Installed Microsoft.Extensions.DependencyInjection.Abstractions 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.10 with content hash r9waLiOPe9ZF1PvzUT+RDoHvpMmY8MW+lb4lqjYGObwKpnyPMLI3odVvlmshwuZcdoHynsGWOrCPA0hxZ63lIA==.
+info : Installed System.Diagnostics.DiagnosticSource 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.diagnostics.diagnosticsource/9.0.10 with content hash uIpKiKp7EWlYZBK71jYP+maGYjDY9YTi/FxBlZoqDzM1ZHZB7gLqUm4jHvRFwaKfR1/Lrt2rQih9LGPIKyNEow==.
+info : Installed Microsoft.Extensions.DependencyInjection 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.10 with content hash iEtXCkNd5XhjNJAOb/wO4IhDRdLIE2CsPxZggZQWJ/q2+sa8dmEPC393nnsiqdH8/4KV8Xn25IzgKPR1UEQ0og==.
+info : Installed Microsoft.EntityFrameworkCore.Sqlite.Core 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/9.0.10 with content hash 6+ee+erdXSzxqB6Piys2ssldqhR8cQZJHjIPKWrh25YTYJhFUmTwB0nC8l/f+U69NoGg7ZIOwdg4+Qk2YV13Ug==.
+info : Installed Microsoft.EntityFrameworkCore.Sqlite 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.sqlite/9.0.10 with content hash 7fFF7FYlISZYhmeTtpjMZIEBxykqpKp2boZpuHTbIitN6am2QlmfVctrJRHHkI5u5Oh5E7uT1DMI68cpBAP4BQ==.
+info : Installed SQLitePCLRaw.bundle_e_sqlite3 2.1.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10 with content hash UxWuisvZ3uVcVOLJQv7urM/JiQH+v3TmaJc1BLKl5Dxfm/nTzTUrqswCqg/INiYLi61AXnHo1M1JPmPqqLnAdg==.
+info : Installed Microsoft.EntityFrameworkCore.Relational 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.10 with content hash IJNrG5vdmFUvHR8FLLFg9AWpuE8qW1DTEN+fNLGbNTu6cnpZzzqU6+aknAGtTSAEVWosJ3BZ3TOO9wpifUvv3A==.
+info : Installed Microsoft.Extensions.Caching.Memory 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.caching.memory/9.0.10 with content hash 2iuzwIoCoqZJfH2VLk1xvlQS4PQDEuhj4dWiGb+Qpt1vHFHyffp497cTO6ucsV54W/h4JmM1vzDBv8pVAFazZg==.
+info : Installed Microsoft.Extensions.Configuration.Abstractions 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.10 with content hash ad3JxmFj0uxuFa1CT6oxTCC1lQ0xeRuOvzBRFT/I/ofIXVOnNsH/v2GZkAJWhlpZqKUvSexQZzp3EEAB2CdtJg==.
+info : Installed Microsoft.Extensions.Logging 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.logging/9.0.10 with content hash UBXHqE9vyptVhaFnT1R7YJKCve7TqVI10yjjUZBNGMlW2lZ4c031Slt9hxsOzWCzlpPxxIFyf1Yk4a6Iubxx7w==.
+info : Installed SQLitePCLRaw.core 2.1.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/sqlitepclraw.core/2.1.10 with content hash Ii8JCbC7oiVclaE/mbDEK000EFIJ+ShRPwAvvV89GOZhQ+ZLtlnSWl6ksCNMKu/VGXA4Nfi2B7LhN/QFN9oBcw==.
+info : Installed Microsoft.Extensions.DependencyModel 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.extensions.dependencymodel/9.0.10 with content hash qCIWxEPt6Y9Z/Vx2R6JsfX7pwxIHC2GYlkcFbTox3MpsiNexyLkvPFTNsfmAaKpjTZ6FhNmvY3BdrwLX4+X0cQ==.
+info : Installed System.Text.Json 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.text.json/9.0.10 with content hash XM02ZBnzxk7Ti6l9YRy8Bp639wANqJzJzw4W4VYiCh+HXY9hBOWkGB4k89OLP/s/RxgM02P4a/mWcJTgFiLf1Q==.
+info : Installed System.Memory 4.5.3 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.memory/4.5.3 with content hash 3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==.
+info : Installed SQLitePCLRaw.lib.e_sqlite3 2.1.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10 with content hash mAr69tDbnf3QJpRy2nJz8Qdpebdil00fvycyByR58Cn9eARvR+UiG2Vzsp+4q1tV3ikwiYIjlXCQFc12GfebbA==.
+info :   GET https://api.nuget.org/v3/vulnerabilities/index.json
+info :   OK https://api.nuget.org/v3/vulnerabilities/index.json 15ms
+info :   GET https://api.nuget.org/v3-vulnerabilities/2025.10.15.05.37.45/vulnerability.base.json
+info :   GET https://api.nuget.org/v3-vulnerabilities/2025.10.15.05.37.45/2025.10.15.17.23.37/vulnerability.update.json
+info :   OK https://api.nuget.org/v3-vulnerabilities/2025.10.15.05.37.45/2025.10.15.17.23.37/vulnerability.update.json 14ms
+info :   OK https://api.nuget.org/v3-vulnerabilities/2025.10.15.05.37.45/vulnerability.base.json 17ms
+info : Package 'Microsoft.EntityFrameworkCore.Sqlite' is compatible with all the specified frameworks in project '/workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj'.
+info : PackageReference for package 'Microsoft.EntityFrameworkCore.Sqlite' version '9.0.10' added to file '/workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj'.
+info : Generating MSBuild file /workspace/src/DynamicCMS.Web/obj/DynamicCMS.Web.csproj.nuget.g.props.
+info : Generating MSBuild file /workspace/src/DynamicCMS.Web/obj/DynamicCMS.Web.csproj.nuget.g.targets.
+info : Writing assets file to disk. Path: /workspace/src/DynamicCMS.Web/obj/project.assets.json
+log  : Restored /workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj (in 4.87 sec).
+  Determining projects to restore...
+  Writing /tmp/tmpp9RNGN.tmp
+info : X.509 certificate chain validation will use the fallback certificate bundle at '/workspace/.dotnet/sdk/8.0.415/trustedroots/codesignctl.pem'.
+info : X.509 certificate chain validation will use the fallback certificate bundle at '/workspace/.dotnet/sdk/8.0.415/trustedroots/timestampctl.pem'.
+info : Adding PackageReference for package 'Microsoft.EntityFrameworkCore.Design' into project '/workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj'.
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/index.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/index.json 443ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/0.0.1-alpha/3.1.3.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/0.0.1-alpha/3.1.3.json 93ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/3.1.4/6.0.0-preview.7.21378.4.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/3.1.4/6.0.0-preview.7.21378.4.json 92ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/6.0.0-rc.1.21452.10/7.0.18.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/6.0.0-rc.1.21452.10/7.0.18.json 73ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/7.0.19/10.0.0-rc.2.25502.107.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/7.0.19/10.0.0-rc.2.25502.107.json 74ms
+info : Restoring packages for /workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj...
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.design/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.design/index.json 303ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.design/9.0.10/microsoft.entityframeworkcore.design.9.0.10.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.design/9.0.10/microsoft.entityframeworkcore.design.9.0.10.nupkg 24ms
+info :   GET https://api.nuget.org/v3-flatcontainer/humanizer.core/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp.workspaces/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/mono.texttemplating/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.build.locator/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.msbuild/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/humanizer.core/index.json 73ms
+info :   GET https://api.nuget.org/v3-flatcontainer/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/index.json 137ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/4.8.0/microsoft.codeanalysis.csharp.4.8.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg 66ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp.workspaces/index.json 142ms
+info :   OK https://api.nuget.org/v3-flatcontainer/mono.texttemplating/index.json 141ms
+info :   GET https://api.nuget.org/v3-flatcontainer/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp.workspaces/4.8.0/microsoft.codeanalysis.csharp.workspaces.4.8.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.msbuild/index.json 145ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.msbuild/4.8.0/microsoft.codeanalysis.workspaces.msbuild.4.8.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp.workspaces/4.8.0/microsoft.codeanalysis.csharp.workspaces.4.8.0.nupkg 10ms
+info :   OK https://api.nuget.org/v3-flatcontainer/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg 12ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/index.json 164ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/4.8.0/microsoft.codeanalysis.csharp.4.8.0.nupkg 25ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.build.locator/index.json 163ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/17.8.3/microsoft.build.framework.17.8.3.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.build.locator/1.7.8/microsoft.build.locator.1.7.8.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.msbuild/4.8.0/microsoft.codeanalysis.workspaces.msbuild.4.8.0.nupkg 31ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.build.locator/1.7.8/microsoft.build.locator.1.7.8.nupkg 26ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/17.8.3/microsoft.build.framework.17.8.3.nupkg 28ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/index.json 72ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/4.8.0/microsoft.codeanalysis.workspaces.common.4.8.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/index.json 103ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/4.8.0/microsoft.codeanalysis.common.4.8.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/4.8.0/microsoft.codeanalysis.workspaces.common.4.8.0.nupkg 26ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/4.8.0/microsoft.codeanalysis.common.4.8.0.nupkg 52ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.analyzers/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.collections.immutable/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.collections.immutable/index.json 64ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.analyzers/index.json 66ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/index.json 71ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg 19ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg 19ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg 27ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/index.json 168ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg 17ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.threading.channels/index.json
+info :   CACHE https://api.nuget.org/v3-flatcontainer/system.io.pipelines/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg 28ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/index.json 65ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.threading.channels/index.json 70ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition/index.json 71ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition/7.0.0/system.composition.7.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg 15ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg 16ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition/7.0.0/system.composition.7.0.0.nupkg 19ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.hosting/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.attributedmodel/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.runtime/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.typedparts/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.convention/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.typedparts/index.json 71ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.hosting/index.json 72ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.attributedmodel/index.json 72ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.hosting/7.0.0/system.composition.hosting.7.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.attributedmodel/7.0.0/system.composition.attributedmodel.7.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.runtime/index.json 82ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.runtime/7.0.0/system.composition.runtime.7.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg 17ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.attributedmodel/7.0.0/system.composition.attributedmodel.7.0.0.nupkg 26ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.hosting/7.0.0/system.composition.hosting.7.0.0.nupkg 27ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.runtime/7.0.0/system.composition.runtime.7.0.0.nupkg 18ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.convention/index.json 150ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.convention/7.0.0/system.composition.convention.7.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.convention/7.0.0/system.composition.convention.7.0.0.nupkg 18ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.codedom/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.codedom/index.json 70ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.codedom/6.0.0/system.codedom.6.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.codedom/6.0.0/system.codedom.6.0.0.nupkg 28ms
+info : Installed System.Composition.Hosting 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.composition.hosting/7.0.0 with content hash eB6gwN9S+54jCTBJ5bpwMOVerKeUfGGTYCzz3QgDr1P55Gg/Wb27ShfPIhLMjmZ3MoAKu8uUSv6fcCdYJTN7Bg==.
+info : Installed System.Composition.TypedParts 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.composition.typedparts/7.0.0 with content hash ZK0KNPfbtxVceTwh+oHNGUOYV2WNOHReX2AXipuvkURC7s/jPwoWfsu3SnDBDgofqbiWr96geofdQ2erm/KTHg==.
+info : Installed System.Composition.Runtime 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.composition.runtime/7.0.0 with content hash aZJ1Zr5Txe925rbo4742XifEyW0MIni1eiUebmcrP3HwLXZ3IbXUj4MFMUH/RmnJOAQiS401leg/2Sz1MkApDw==.
+info : Installed System.Composition.Convention 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.composition.convention/7.0.0 with content hash IMhTlpCs4HmlD8B+J8/kWfwX7vrBBOs6xyjSTzBlYSs7W4OET4tlkR/Sg9NG8jkdJH9Mymq0qGdYS1VPqRTBnQ==.
+info : Installed System.Composition.AttributedModel 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.composition.attributedmodel/7.0.0 with content hash 2QzClqjElKxgI1jK1Jztnq44/8DmSuTSGGahXqQ4TdEV0h9s2KikQZIgcEqVzR7OuWDFPGLHIprBJGQEPr8fAQ==.
+info : Installed Microsoft.Build.Locator 1.7.8 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.build.locator/1.7.8 with content hash sPy10x527Ph16S2u0yGME4S6ohBKJ69WfjeGG/bvELYeZVmJdKjxgnlL8cJJJLGV/cZIRqSfB12UDB8ICakOog==.
+info : Installed Mono.TextTemplating 3.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/mono.texttemplating/3.0.0 with content hash YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==.
+info : Installed Microsoft.CodeAnalysis.CSharp.Workspaces 4.8.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.8.0 with content hash 3amm4tq4Lo8/BGvg9p3BJh3S9nKq2wqCXfS7138i69TUpo/bD+XvD0hNurpEBtcNZhi1FyutiomKJqVF39ugYA==.
+info : Installed Microsoft.CodeAnalysis.Workspaces.MSBuild 4.8.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.codeanalysis.workspaces.msbuild/4.8.0 with content hash IEYreI82QZKklp54yPHxZNG9EKSK6nHEkeuf+0Asie9llgS1gp0V1hw7ODG+QyoB7MuAnNQHmeV1Per/ECpv6A==.
+info : Installed System.Threading.Channels 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.threading.channels/7.0.0 with content hash qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==.
+info : Installed System.IO.Pipelines 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.io.pipelines/7.0.0 with content hash jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==.
+info : Installed Microsoft.EntityFrameworkCore.Design 9.0.10 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.design/9.0.10 with content hash 8rdqmG0cV8uHPkX26rSQbGljzGJC7+sfWDXyV0f6TuR0YkUR46ztzH//xNTnB9zgEs6NUyOemAcspmkucH0pcw==.
+info : Installed System.Composition 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.composition/7.0.0 with content hash tRwgcAkDd85O8Aq6zHDANzQaq380cek9lbMg5Qma46u5BZXq/G+XvIYmu+UI+BIIZ9zssXLYrkTykEqxxvhcmg==.
+info : Installed Microsoft.Bcl.AsyncInterfaces 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0 with content hash 3aeMZ1N0lJoSyzqiP03hqemtb1BijhsJADdobn/4nsMJ8V1H+CrpuduUe4hlRdx+ikBQju1VGjMD1GJ3Sk05Eg==.
+info : Installed Microsoft.Build.Framework 17.8.3 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.build.framework/17.8.3 with content hash NrQZJW8TlKVPx72yltGb8SVz3P5mNRk9fNiD/ao8jRSk48WqIIdCn99q4IjlVmPcruuQ+yLdjNQLL8Rb4c916g==.
+info : Installed System.Collections.Immutable 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.collections.immutable/7.0.0 with content hash dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==.
+info : Installed System.Runtime.CompilerServices.Unsafe 6.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0 with content hash /iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==.
+info : Installed Humanizer.Core 2.14.1 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/humanizer.core/2.14.1 with content hash lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==.
+info : Installed System.CodeDom 6.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.codedom/6.0.0 with content hash CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==.
+info : Installed Microsoft.CodeAnalysis.Common 4.8.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.codeanalysis.common/4.8.0 with content hash /jR+e/9aT+BApoQJABlVCKnnggGQbvGh7BKq2/wI1LamxC+LbzhcLj4Vj7gXCofl1n4E521YfF9w0WcASGg/KA==.
+info : Installed System.Reflection.Metadata 7.0.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/system.reflection.metadata/7.0.0 with content hash MclTG61lsD9sYdpNz9xsKBzjsmsfCtcMZYXz/IUr2zlhaTaABonlr1ESeompTgM+Xk+IwtGYU7/voh3YWB/fWw==.
+info : Installed Microsoft.CodeAnalysis.Analyzers 3.3.4 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4 with content hash AxkxcPR+rheX0SmvpLVIGLhOUXAKG56a64kV9VQZ4y9gR9ZmPXnqZvHJnmwLSwzrEP6junUF11vuc+aqo5r68g==.
+info : Installed Microsoft.CodeAnalysis.Workspaces.Common 4.8.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.8.0 with content hash LXyV+MJKsKRu3FGJA3OmSk40OUIa/dQCFLOnm5X8MNcujx7hzGu8o+zjXlb/cy5xUdZK2UKYb9YaQ2E8m9QehQ==.
+info : Installed Microsoft.CodeAnalysis.CSharp 4.8.0 from https://api.nuget.org/v3/index.json to /home/ubuntu/.nuget/packages/microsoft.codeanalysis.csharp/4.8.0 with content hash +3+qfdb/aaGD8PZRCrsdobbzGs1m9u119SkkJt8e/mk3xLJz/udLtS2T6nY27OTXxBBw10HzAbC8Z9w08VyP/g==.
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2025.10.15.05.37.45/vulnerability.base.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2025.10.15.05.37.45/2025.10.15.17.23.37/vulnerability.update.json
+info : Package 'Microsoft.EntityFrameworkCore.Design' is compatible with all the specified frameworks in project '/workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj'.
+info : PackageReference for package 'Microsoft.EntityFrameworkCore.Design' version '9.0.10' added to file '/workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj'.
+info : Generating MSBuild file /workspace/src/DynamicCMS.Web/obj/DynamicCMS.Web.csproj.nuget.g.props.
+info : Generating MSBuild file /workspace/src/DynamicCMS.Web/obj/DynamicCMS.Web.csproj.nuget.g.targets.
+info : Writing assets file to disk. Path: /workspace/src/DynamicCMS.Web/obj/project.assets.json
+log  : Restored /workspace/src/DynamicCMS.Web/DynamicCMS.Web.csproj (in 3.55 sec).

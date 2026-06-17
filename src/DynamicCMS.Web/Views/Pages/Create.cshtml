@@ -1,0 +1,36 @@
+@model DynamicCMS.Web.Models.ContentPage
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+<h1>Create Page</h1>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Slug" class="form-label"></label>
+        <input asp-for="Slug" class="form-control" />
+        <div class="form-text">Leave empty to auto-generate from title</div>
+        <span asp-validation-for="Slug" class="text-danger"></span>
+    </div>
+    <div class="form-check mb-3">
+        <input asp-for="IsPublished" class="form-check-input" />
+        <label asp-for="IsPublished" class="form-check-label"></label>
+    </div>
+    <div class="mb-3">
+        <label asp-for="BodyHtml" class="form-label"></label>
+        <textarea asp-for="BodyHtml" rows="12" class="form-control"></textarea>
+        <span asp-validation-for="BodyHtml" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

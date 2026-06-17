@@ -1,0 +1,18 @@
+@model DynamicCMS.Web.Models.ContentPage
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<article class="cms-page">
+  <h1>@Model.Title</h1>
+  <div class="cms-body">
+    @if (!string.IsNullOrWhiteSpace(Model.BodyHtml))
+    {
+        @Html.Raw(Model.BodyHtml)
+    }
+    else
+    {
+        <p>No content yet.</p>
+    }
+  </div>
+</article>

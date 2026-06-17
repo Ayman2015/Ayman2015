@@ -1,0 +1,36 @@
+@model IEnumerable<DynamicCMS.Web.Models.ContentPage>
+@{
+    ViewData["Title"] = "Pages";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1 class="mb-0">Pages</h1>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Slug</th>
+            <th>Published</th>
+            <th>Updated</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td><a asp-action="Edit" asp-route-id="@p.Id">@p.Title</a></td>
+            <td>@p.Slug</td>
+            <td>@(p.IsPublished ? "Yes" : "No")</td>
+            <td>@p.UpdatedAtUtc.ToLocalTime()</td>
+            <td class="text-end">
+                <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@p.Id">Edit</a>
+                <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@p.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
